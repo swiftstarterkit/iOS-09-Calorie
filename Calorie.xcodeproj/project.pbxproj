@@ -108,7 +108,12 @@
 			isa = PBXGroup;
 			children = (
 				7AA6EE4924D330D100B05171 /* ContentView.swift */,
-				7AA6EE7324D368D500B05171 /* Card */,
+				7AA6EE6824D3624B00B05171 /* TitleCard.swift */,
+				7AA6EE6F24D3640C00B05171 /* GenderCard.swift */,
+				7AA6EE7124D3688C00B05171 /* AgeCard.swift */,
+				7AA6EE7424D36AE400B05171 /* HeightCard.swift */,
+				7AA6EE7624D36CB100B05171 /* WeightCard.swift */,
+				7AA6EE6224D342F700B05171 /* ResultCard.swift */,
 				7AA6EE7A24D36E3A00B05171 /* Components */,
 			);
 			path = View;
@@ -120,19 +125,6 @@
 				7AA6EE6A24D3628E00B05171 /* CalorieViewModel.swift */,
 			);
 			path = "View Model";
-			sourceTree = "<group>";
-		};
-		7AA6EE7324D368D500B05171 /* Card */ = {
-			isa = PBXGroup;
-			children = (
-				7AA6EE6824D3624B00B05171 /* TitleCard.swift */,
-				7AA6EE6F24D3640C00B05171 /* GenderCard.swift */,
-				7AA6EE7124D3688C00B05171 /* AgeCard.swift */,
-				7AA6EE7424D36AE400B05171 /* HeightCard.swift */,
-				7AA6EE7624D36CB100B05171 /* WeightCard.swift */,
-				7AA6EE6224D342F700B05171 /* ResultCard.swift */,
-			);
-			path = Card;
 			sourceTree = "<group>";
 		};
 		7AA6EE7A24D36E3A00B05171 /* Components */ = {
