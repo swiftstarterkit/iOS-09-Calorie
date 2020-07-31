@@ -18,21 +18,21 @@ struct ContentView: View {
             
             Spacer()
             
-            if viewModel.activeCard == 0 {
+            if viewModel.activeCardIndex == 0 {
                 TitleCard()
-            } else if viewModel.activeCard == 1 {
+            } else if viewModel.activeCardIndex == 1 {
                 GenderCard()
-            } else if viewModel.activeCard == 2 {
+            } else if viewModel.activeCardIndex == 2 {
                 AgeCard()
-            } else if viewModel.activeCard == 3 {
+            } else if viewModel.activeCardIndex == 3 {
                 HeightCard()
-            } else if viewModel.activeCard == 4 {
+            } else if viewModel.activeCardIndex == 4 {
                 WeightCard()
             } else {
                 ResultCard()
             }
             
-            if viewModel.activeCard < 4 || viewModel.activeCard == 5 {
+            if viewModel.activeCardIndex < 4 || viewModel.activeCardIndex == 5 {
                 NextButton()
             } else {
                 CalculateButton()
