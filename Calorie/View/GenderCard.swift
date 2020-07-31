@@ -30,9 +30,3 @@ struct GenderCard: View {
         }   .frame(width: 300, height: 500)
     }
 }
-
-struct GenderView_Previews: PreviewProvider {
-    static var previews: some View {
-        GenderCard()
-    }
-}

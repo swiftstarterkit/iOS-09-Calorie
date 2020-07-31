@@ -20,9 +20,3 @@ struct NextButton: View {
             .onTapGesture(perform: viewModel.moveToNextCard)
     }
 }
-
-struct NextButton_Previews: PreviewProvider {
-    static var previews: some View {
-        NextButton()
-    }
-}

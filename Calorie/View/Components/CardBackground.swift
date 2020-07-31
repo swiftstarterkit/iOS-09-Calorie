@@ -14,9 +14,3 @@ struct CardBackground: View {
             .shadow(color: Color(.systemGray5), radius: 5, x: 2, y: 2)
     }
 }
-
-struct CardBackground_Previews: PreviewProvider {
-    static var previews: some View {
-        CardBackground()
-    }
-}

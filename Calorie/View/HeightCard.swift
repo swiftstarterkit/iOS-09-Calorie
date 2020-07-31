@@ -31,9 +31,3 @@ struct HeightCard: View {
         }   .frame(width: 300, height: 500)
     }
 }
-
-struct HeightView_Previews: PreviewProvider {
-    static var previews: some View {
-        HeightCard()
-    }
-}

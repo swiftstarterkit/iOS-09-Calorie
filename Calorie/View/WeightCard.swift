@@ -31,9 +31,3 @@ struct WeightCard: View {
         } .frame(width: 300, height: 500)
     }
 }
-
-struct WeightView_Previews: PreviewProvider {
-    static var previews: some View {
-        WeightCard()
-    }
-}

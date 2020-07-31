@@ -31,9 +31,3 @@ struct AgeCard: View {
         }   .frame(width: 300, height: 500)
     }
 }
-
-struct AgeView_Previews: PreviewProvider {
-    static var previews: some View {
-        AgeCard()
-    }
-}
