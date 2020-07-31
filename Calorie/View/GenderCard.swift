@@ -14,30 +14,20 @@ struct GenderCard: View {
     var body: some View {
         
         ZStack {
-            Color(.white)
-                .cornerRadius(20)
-                .shadow(color: Color(.systemGray5), radius: 5, x: 2, y: 2)
+            
+            CardBackground()
             
             VStack {
-                Text("Gender")
-                    .font(.title)
-                    .fontWeight(.bold)
-                    .foregroundColor(Color(.systemBlue))
-                    .padding(.bottom, 10)
                 
-                Text("Select Your Gender")
-                    .font(.caption)
-                    .foregroundColor(Color(.systemGray))
-                    .padding(.bottom, 30)
+                CardLabel(title: "Gender", caption: "Select Your Gender")
                 
                 Picker("Gender", selection: $model.gender) {
                     Text("Male").tag(Gender.male)
                     Text("Female").tag(Gender.female)
                 }   .pickerStyle(SegmentedPickerStyle())
                     .frame(width: 150)
-                
             }
-        } .frame(width: 300, height: 500)
+        }   .frame(width: 300, height: 500)
     }
 }
 

@@ -15,23 +15,14 @@ struct ResultCard: View {
         
         ZStack {
             
-            Color(.white)
-                .cornerRadius(20)
-                .shadow(color: Color(.systemGray5), radius: 5, x: 2, y: 2)
+            CardBackground()
             
             VStack {
-                Text("Result")
-                    .font(.title)
-                    .fontWeight(.bold)
-                    .foregroundColor(Color(.systemBlue))
-                    .padding(.bottom, 10)
                 
-                Text("Your Basal Metabolic Rate is")
-                    .font(.caption)
-                    .foregroundColor(Color(.systemGray))
-                    .padding(.bottom, 30)
+                CardLabel(title: "Result", caption: "Your Basal Metabolic Rate is")
                 
                 VStack {
+                    
                     Text(String(format: "%0.0f", model.resultBMR))
                         .font(.largeTitle)
                         .fontWeight(.bold)

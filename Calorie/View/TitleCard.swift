@@ -11,22 +11,8 @@ struct TitleCard: View {
     var body: some View {
         
         ZStack {
-            Color(.white)
-                .cornerRadius(20)
-                .shadow(color: Color(.systemGray5), radius: 5, x: 2, y: 2)
-            VStack {
-                Text("Calorie")
-                    .font(.largeTitle)
-                    .fontWeight(.bold)
-                    .foregroundColor(Color(.systemBlue))
-                    .padding(.bottom, 10)
-                
-                Text("BMR Calculator")
-                    .font(.subheadline)
-                    .foregroundColor(Color(.systemGray))
-            }
+            CardBackground()
+            CardLabel(title: "Calorie", caption: "BMR Calculator")
         } .frame(width: 300, height: 500)
-        
-        
     }
 }

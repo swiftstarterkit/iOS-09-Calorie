@@ -14,21 +14,12 @@ struct AgeCard: View {
     var body: some View {
         
         ZStack {
-            Color(.white)
-                .cornerRadius(20)
-                .shadow(color: Color(.systemGray5), radius: 5, x: 2, y: 2)
+            
+            CardBackground()
             
             VStack {
-                Text("Age")
-                    .font(.title)
-                    .fontWeight(.bold)
-                    .foregroundColor(Color(.systemBlue))
-                    .padding(.bottom, 10)
                 
-                Text("Enter Your Age")
-                    .font(.caption)
-                    .foregroundColor(Color(.systemGray))
-                    .padding(.bottom, 30)
+                CardLabel(title: "Age", caption: "Enter Your Age")
                 
                 VStack {
                     SliderValue(value: model.age)
@@ -37,7 +28,7 @@ struct AgeCard: View {
                 }   .frame(width: 150)
                 
             }
-        } .frame(width: 300, height: 500)
+        }   .frame(width: 300, height: 500)
     }
 }
 

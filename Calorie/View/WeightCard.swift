@@ -14,21 +14,12 @@ struct WeightCard: View {
     var body: some View {
         
         ZStack {
-            Color(.white)
-                .cornerRadius(20)
-                .shadow(color: Color(.systemGray5), radius: 5, x: 2, y: 2)
+            
+            CardBackground()
             
             VStack {
-                Text("Weight")
-                    .font(.title)
-                    .fontWeight(.bold)
-                    .foregroundColor(Color(.systemBlue))
-                    .padding(.bottom, 10)
                 
-                Text("Enter Your Weight (KG)")
-                    .font(.caption)
-                    .foregroundColor(Color(.systemGray))
-                    .padding(.bottom, 30)
+                CardLabel(title: "Weight", caption: "Enter Your Weight (KG)")
                 
                 VStack {
                     SliderValue(value: model.weight)

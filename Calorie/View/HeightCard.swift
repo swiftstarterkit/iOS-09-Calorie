@@ -14,21 +14,12 @@ struct HeightCard: View {
     var body: some View {
         
         ZStack {
-            Color(.white)
-                .cornerRadius(20)
-                .shadow(color: Color(.systemGray5), radius: 5, x: 2, y: 2)
+            
+            CardBackground()
             
             VStack {
-                Text("Height")
-                    .font(.title)
-                    .fontWeight(.bold)
-                    .foregroundColor(Color(.systemBlue))
-                    .padding(.bottom, 10)
                 
-                Text("Enter Your Height (CM)")
-                    .font(.caption)
-                    .foregroundColor(Color(.systemGray))
-                    .padding(.bottom, 30)
+                CardLabel(title: "Height", caption: "Enter Your Height (CM)")
                 
                 VStack {
                     SliderValue(value: model.height)
@@ -37,7 +28,7 @@ struct HeightCard: View {
                 }   .frame(width: 150)
                 
             }
-        } .frame(width: 300, height: 500)
+        }   .frame(width: 300, height: 500)
     }
 }
 

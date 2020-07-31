@@ -23,6 +23,8 @@
 		7AA6EE7524D36AE400B05171 /* HeightCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA6EE7424D36AE400B05171 /* HeightCard.swift */; };
 		7AA6EE7724D36CB100B05171 /* WeightCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA6EE7624D36CB100B05171 /* WeightCard.swift */; };
 		7AA6EE7924D36E1700B05171 /* NextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA6EE7824D36E1700B05171 /* NextButton.swift */; };
+		7AA6EE7C24D39C7300B05171 /* CardLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA6EE7B24D39C7300B05171 /* CardLabel.swift */; };
+		7AF892FE24D39D58000D819A /* CardBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AF892FD24D39D58000D819A /* CardBackground.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +46,8 @@
 		7AA6EE7424D36AE400B05171 /* HeightCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightCard.swift; sourceTree = "<group>"; };
 		7AA6EE7624D36CB100B05171 /* WeightCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightCard.swift; sourceTree = "<group>"; };
 		7AA6EE7824D36E1700B05171 /* NextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextButton.swift; sourceTree = "<group>"; };
+		7AA6EE7B24D39C7300B05171 /* CardLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardLabel.swift; sourceTree = "<group>"; };
+		7AF892FD24D39D58000D819A /* CardBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardBackground.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +134,8 @@
 		7AA6EE7A24D36E3A00B05171 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				7AA6EE7B24D39C7300B05171 /* CardLabel.swift */,
+				7AF892FD24D39D58000D819A /* CardBackground.swift */,
 				7AA6EE6424D3434A00B05171 /* CalculateButton.swift */,
 				7AA6EE7824D36E1700B05171 /* NextButton.swift */,
 				7AA6EE5824D3390800B05171 /* SliderValue.swift */,
@@ -214,6 +220,8 @@
 				7AA6EE7224D3688C00B05171 /* AgeCard.swift in Sources */,
 				7AA6EE4824D330D100B05171 /* CalorieApp.swift in Sources */,
 				7AA6EE6324D342F700B05171 /* ResultCard.swift in Sources */,
+				7AA6EE7C24D39C7300B05171 /* CardLabel.swift in Sources */,
+				7AF892FE24D39D58000D819A /* CardBackground.swift in Sources */,
 				7AA6EE6924D3624B00B05171 /* TitleCard.swift in Sources */,
 				7AA6EE6524D3434A00B05171 /* CalculateButton.swift in Sources */,
 				7AA6EE7524D36AE400B05171 /* HeightCard.swift in Sources */,
