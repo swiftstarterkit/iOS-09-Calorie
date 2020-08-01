@@ -81,8 +81,8 @@
 			isa = PBXGroup;
 			children = (
 				7AA6EE4724D330D100B05171 /* CalorieApp.swift */,
-				7AA6EE6E24D3634900B05171 /* View Model */,
 				7AA6EE5E24D33E1800B05171 /* Model */,
+				7AA6EE6E24D3634900B05171 /* View Model */,
 				7AA6EE5F24D33E1F00B05171 /* View */,
 				7AA6EE4B24D330D200B05171 /* Assets.xcassets */,
 				7AA6EE5024D330D200B05171 /* Info.plist */,
