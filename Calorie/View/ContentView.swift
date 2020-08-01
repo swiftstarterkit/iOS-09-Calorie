@@ -20,15 +20,25 @@ struct ContentView: View {
             
             if viewModel.activeCardIndex == 0 {
                 TitleCard()
-            } else if viewModel.activeCardIndex == 1 {
+            }
+            
+            if viewModel.activeCardIndex == 1 {
                 GenderCard()
-            } else if viewModel.activeCardIndex == 2 {
+            }
+            
+            if viewModel.activeCardIndex == 2 {
                 AgeCard()
-            } else if viewModel.activeCardIndex == 3 {
+            }
+            
+            if viewModel.activeCardIndex == 3 {
                 HeightCard()
-            } else if viewModel.activeCardIndex == 4 {
+            }
+            
+            if viewModel.activeCardIndex == 4 {
                 WeightCard()
-            } else {
+            }
+            
+            if viewModel.activeCardIndex == 5 {
                 ResultCard()
             }
             
