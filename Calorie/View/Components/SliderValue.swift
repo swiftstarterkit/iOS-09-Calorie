@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct SliderValue: View {
-    let value: Float
+    let value: Double
     var body: some View {
         Text(String(format: "%0.0f", value))
             .font(.title)

@@ -9,11 +9,11 @@ import Foundation
 
 class CalorieModel: ObservableObject {
     
-    @Published var age: Float = 26
-    @Published var height: Float = 165
-    @Published var weight: Float = 63
+    @Published var age: Double = 26
+    @Published var height: Double = 165
+    @Published var weight: Double = 63
     @Published var gender: Gender = Gender.female
-    @Published var resultBMR: Float = 0
+    @Published var resultBMR: Double = 0
     
     func calculateBMR() {
         
