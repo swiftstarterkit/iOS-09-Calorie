@@ -10,7 +10,8 @@ import SwiftUI
 struct ContentView: View {
     
     @EnvironmentObject var model: CalorieModel
-    @EnvironmentObject var viewModel: CalorieViewModel
+    
+    @State var activeCardIndex: Int = 0
     
     var body: some View {
         
@@ -18,34 +19,44 @@ struct ContentView: View {
             
             Spacer()
             
-            if viewModel.activeCardIndex == 0 {
+            if activeCardIndex == 0 {
                 TitleCard()
             }
             
-            if viewModel.activeCardIndex == 1 {
+            if activeCardIndex == 1 {
                 GenderCard()
             }
             
-            if viewModel.activeCardIndex == 2 {
+            if activeCardIndex == 2 {
                 AgeCard()
             }
             
-            if viewModel.activeCardIndex == 3 {
+            if activeCardIndex == 3 {
                 HeightCard()
             }
             
-            if viewModel.activeCardIndex == 4 {
+            if activeCardIndex == 4 {
                 WeightCard()
             }
             
-            if viewModel.activeCardIndex == 5 {
+            if activeCardIndex == 5 {
                 ResultCard()
             }
             
-            if viewModel.activeCardIndex < 4 || viewModel.activeCardIndex == 5 {
+            if activeCardIndex < 4 || activeCardIndex == 5 {
                 NextButton()
             } else {
                 CalculateButton()
+            }
+        }
+    }
+    
+    func moveToNextCard() {
+        withAnimation {
+            if activeCardIndex < 5 {
+                activeCardIndex += 1
+            } else {
+                activeCardIndex = 0
             }
         }
     }

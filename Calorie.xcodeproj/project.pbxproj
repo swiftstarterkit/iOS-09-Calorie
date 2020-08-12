@@ -17,7 +17,6 @@
 		7AA6EE6324D342F700B05171 /* ResultCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA6EE6224D342F700B05171 /* ResultCard.swift */; };
 		7AA6EE6524D3434A00B05171 /* CalculateButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA6EE6424D3434A00B05171 /* CalculateButton.swift */; };
 		7AA6EE6924D3624B00B05171 /* TitleCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA6EE6824D3624B00B05171 /* TitleCard.swift */; };
-		7AA6EE6B24D3628E00B05171 /* CalorieViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA6EE6A24D3628E00B05171 /* CalorieViewModel.swift */; };
 		7AA6EE7024D3640C00B05171 /* GenderCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA6EE6F24D3640C00B05171 /* GenderCard.swift */; };
 		7AA6EE7224D3688C00B05171 /* AgeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA6EE7124D3688C00B05171 /* AgeCard.swift */; };
 		7AA6EE7524D36AE400B05171 /* HeightCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AA6EE7424D36AE400B05171 /* HeightCard.swift */; };
@@ -40,7 +39,6 @@
 		7AA6EE6224D342F700B05171 /* ResultCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCard.swift; sourceTree = "<group>"; };
 		7AA6EE6424D3434A00B05171 /* CalculateButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculateButton.swift; sourceTree = "<group>"; };
 		7AA6EE6824D3624B00B05171 /* TitleCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCard.swift; sourceTree = "<group>"; };
-		7AA6EE6A24D3628E00B05171 /* CalorieViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalorieViewModel.swift; sourceTree = "<group>"; };
 		7AA6EE6F24D3640C00B05171 /* GenderCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenderCard.swift; sourceTree = "<group>"; };
 		7AA6EE7124D3688C00B05171 /* AgeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgeCard.swift; sourceTree = "<group>"; };
 		7AA6EE7424D36AE400B05171 /* HeightCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightCard.swift; sourceTree = "<group>"; };
@@ -82,7 +80,6 @@
 			children = (
 				7AA6EE4724D330D100B05171 /* CalorieApp.swift */,
 				7AA6EE5E24D33E1800B05171 /* Model */,
-				7AA6EE6E24D3634900B05171 /* View Model */,
 				7AA6EE5F24D33E1F00B05171 /* View */,
 				7AA6EE4B24D330D200B05171 /* Assets.xcassets */,
 				7AA6EE5024D330D200B05171 /* Info.plist */,
@@ -121,14 +118,6 @@
 				7AA6EE7A24D36E3A00B05171 /* Components */,
 			);
 			path = View;
-			sourceTree = "<group>";
-		};
-		7AA6EE6E24D3634900B05171 /* View Model */ = {
-			isa = PBXGroup;
-			children = (
-				7AA6EE6A24D3628E00B05171 /* CalorieViewModel.swift */,
-			);
-			path = "View Model";
 			sourceTree = "<group>";
 		};
 		7AA6EE7A24D36E3A00B05171 /* Components */ = {
@@ -216,7 +205,6 @@
 				7AA6EE5B24D33BAC00B05171 /* Gender.swift in Sources */,
 				7AA6EE4A24D330D100B05171 /* ContentView.swift in Sources */,
 				7AA6EE7024D3640C00B05171 /* GenderCard.swift in Sources */,
-				7AA6EE6B24D3628E00B05171 /* CalorieViewModel.swift in Sources */,
 				7AA6EE7224D3688C00B05171 /* AgeCard.swift in Sources */,
 				7AA6EE4824D330D100B05171 /* CalorieApp.swift in Sources */,
 				7AA6EE6324D342F700B05171 /* ResultCard.swift in Sources */,
