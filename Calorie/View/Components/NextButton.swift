@@ -9,14 +9,11 @@ import SwiftUI
 
 struct NextButton: View {
     
-    @EnvironmentObject var viewModel: CalorieViewModel
-    
     var body: some View {
         Image(systemName: "chevron.right.circle.fill")
             .font(.largeTitle)
             .foregroundColor(Color(.systemBlue))
             .frame(height: 100)
             .padding(.top, 50)
-            .onTapGesture(perform: viewModel.moveToNextCard)
     }
 }

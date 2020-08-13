@@ -45,8 +45,16 @@ struct ContentView: View {
             
             if activeCardIndex < 4 || activeCardIndex == 5 {
                 NextButton()
+                    .onTapGesture {
+                        moveToNextCard()
+                    }
+                
             } else {
                 CalculateButton()
+                    .onTapGesture {
+                        model.calculateBMR()
+                        moveToNextCard()
+                    }
             }
         }
     }

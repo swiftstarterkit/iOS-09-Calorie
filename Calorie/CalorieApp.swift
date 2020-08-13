@@ -11,13 +11,11 @@ import SwiftUI
 struct CalorieApp: App {
     
     @StateObject var model: CalorieModel = CalorieModel()
-    @StateObject var viewModel: CalorieViewModel = CalorieViewModel()
     
     var body: some Scene {
         WindowGroup {
             ContentView()
                 .environmentObject(model)
-                .environmentObject(viewModel)
         }
     }
 }
